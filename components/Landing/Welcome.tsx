@@ -83,7 +83,7 @@ const WelcomeSection = () => {
               whiteSpace: "nowrap",
               borderRight: "2px solid", // Cursor effect
               width: "fit-content",
-              animation: `${typewriter} 4s steps(30) infinite alternate, ${blink} 0.75s step-end infinite`, // Typewriter with clear-and-restart effect
+              animation: `${typewriter} 4s steps(60) infinite alternate, ${blink} 0.75s step-end infinite`, // Typewriter with clear-and-restart effect
             }}
           >
             {t("SchoolName")}
